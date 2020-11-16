@@ -4477,7 +4477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 300
-  playerBody: {fileID: 354179820370610477}
+  playerBody: {fileID: 1464970944355927122}
 --- !u!1 &6505676608107001458
 GameObject:
   m_ObjectHideFlags: 0
