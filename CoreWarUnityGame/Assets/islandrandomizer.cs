@@ -5,7 +5,7 @@ using UnityEngine;
 public class islandrandomizer : MonoBehaviour
 {
 
-    public float jankisland = -90f; 
+    public float jankisland = 0f; 
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class islandrandomizer : MonoBehaviour
     {
 
         
-        Quaternion randomMotiom = Quaternion.Euler(jankisland, 0, Random.Range(0 , 360));
+        Quaternion randomMotiom = Quaternion.Euler(jankisland, Random.Range(0, 360), 0);
         transform.rotation = randomMotiom;
 
     }
