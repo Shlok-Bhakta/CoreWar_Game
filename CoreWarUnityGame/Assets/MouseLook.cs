@@ -29,18 +29,19 @@ public class MouseLook : MonoBehaviour
         mouseX = mouseX * sensitivity * Time.deltaTime;
         mouseY = mouseY * sensitivity * Time.deltaTime;
 
-        //getting movement of camera X axis
-
-        playerBody.Rotate(Vector3.up * mouseX);
+        
+        
+        
        
         //getting camera movement on the y axis
         xRotation -= mouseY;
         
         // clamping the camera so it doesnt spin to far
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, 0f, 180f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-
-
+        
+        //getting movement of camera X axis
+        playerBody.Rotate(Vector3.up * mouseX);
     }
 }
