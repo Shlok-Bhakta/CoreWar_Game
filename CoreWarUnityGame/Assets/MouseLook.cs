@@ -12,11 +12,15 @@ public class MouseLook : MonoBehaviour
     //creating a float for the player body
     public Transform playerBody;
     
+    
+
+
     //creating a float for a camera
     float xRotation = 0;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        playerBody.Rotate(0f, -90f, 0f);
     }
  
     void Update()
