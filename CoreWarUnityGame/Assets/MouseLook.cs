@@ -11,8 +11,8 @@ public class MouseLook : MonoBehaviour
 
     //creating a float for the player body
     public Transform playerBody;
-    
-    
+
+    public Transform Cam;
 
 
     //creating a float for a camera
@@ -20,7 +20,10 @@ public class MouseLook : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        playerBody.Rotate(0f, -90f, 0f);
+
+        //Cam.Rotate(0f, -90f, f);
+
+
     }
  
     void Update()
@@ -34,9 +37,9 @@ public class MouseLook : MonoBehaviour
         mouseY = mouseY * sensitivity * Time.deltaTime;
 
         
-        
-        
-       
+
+
+
         //getting camera movement on the y axis
         xRotation -= mouseY;
         
