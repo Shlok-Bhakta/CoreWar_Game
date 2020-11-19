@@ -16,7 +16,7 @@ public class MouseLook : MonoBehaviour
 
 
     //creating a float for a camera
-    float xRotation = 0;
+    float xRotation = 90;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
