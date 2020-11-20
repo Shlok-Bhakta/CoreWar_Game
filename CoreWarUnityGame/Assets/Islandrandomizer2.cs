@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class islandrandomizer : MonoBehaviour
+public class Islandrandomizer2 : MonoBehaviour
 {
 
-    public float jankisland = 0f; 
+    public float jankisland = -90f;
     // Start is called before the first frame update
     void Start()
     {
