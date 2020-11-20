@@ -11,19 +11,26 @@ public class MouseLook : MonoBehaviour
 
     //creating a float for the player body
     public Transform playerBody;
+<<<<<<< HEAD
 
     public Transform Cam;
 
 
+=======
+    
+>>>>>>> parent of 07c3a2e... added movement and gravity is jank
     //creating a float for a camera
     float xRotation = 90;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+<<<<<<< HEAD
 
         //Cam.Rotate(0f, -90f, f);
 
 
+=======
+>>>>>>> parent of 07c3a2e... added movement and gravity is jank
     }
  
     void Update()

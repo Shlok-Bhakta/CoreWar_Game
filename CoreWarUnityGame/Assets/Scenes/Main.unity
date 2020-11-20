@@ -377,18 +377,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126352935991448471}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.6635, y: 2.89, z: -0.03}
   m_LocalScale: {x: 0.032874, y: 0.032874, z: 0.032874}
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 4230518422018958588}
 =======
 >>>>>>> 77362bf8a3775ee2d17333ae45948d2501b5e871
+=======
+  - {fileID: 4230518422018958588}
+  - {fileID: 3441857774244225777}
+>>>>>>> parent of 07c3a2e... added movement and gravity is jank
   - {fileID: 7939199741210626990}
+  - {fileID: 2240161250749231479}
+  - {fileID: 7479659233129002204}
+  - {fileID: 3378034557857609417}
+  - {fileID: 3070207693095120261}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404708045138532530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 1126352935991448475}
-  speed: 9.08
+  speed: 41.77
 --- !u!143 &1126352935991448475
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1370,6 +1379,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6384990383961558980}
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
 <<<<<<< HEAD
   m_LocalPosition: {x: -1.2040467, y: 0.25002974, z: 0.0019989412}
@@ -1386,6 +1396,15 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 180, y: 90, z: 90}
 >>>>>>> 77362bf8a3775ee2d17333ae45948d2501b5e871
+=======
+  m_LocalRotation: {x: 0.50000006, y: -0.49999997, z: -0.50000006, w: 0.49999997}
+  m_LocalPosition: {x: -0.9566672, y: 0, z: 0.2500003}
+  m_LocalScale: {x: 0.3333334, y: 0.33333337, z: 0.33333337}
+  m_Children: []
+  m_Father: {fileID: 7939199741210626990}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+>>>>>>> parent of 07c3a2e... added movement and gravity is jank
 --- !u!33 &1512385687103685435
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1913,13 +1932,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3834271226167930609}
-  m_LocalRotation: {x: 0.7071002, y: -0.0030853245, z: -0.0030853245, w: 0.7071}
-  m_LocalPosition: {x: 0.010907755, y: 2.249953, z: 0.5000003}
-  m_LocalScale: {x: 0.26994288, y: 0.13497141, z: 0.26994294}
+  m_LocalRotation: {x: 0.000000059604645, y: -0.004363308, z: 4.656613e-10, w: 0.9999905}
+  m_LocalPosition: {x: 0.02181551, y: 9, z: -4.499904}
+  m_LocalScale: {x: 0.53988576, y: 0.5398856, z: 0.5398858}
   m_Children:
   - {fileID: 3992003295464588727}
-  m_Father: {fileID: 4230518422018958588}
-  m_RootOrder: 0
+  m_Father: {fileID: 354179820370610477}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2240828530295520399
 GameObject:
@@ -2320,13 +2339,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9062587150536523909}
-  m_LocalRotation: {x: 0.70710695, y: -2.8400367e-18, z: 2.4424291e-17, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: -2.25, z: 0.49999967}
-  m_LocalScale: {x: 0.26994276, y: 0.13497141, z: 0.26994282}
+  m_LocalRotation: {x: 0.000000059604645, y: 1.5262372e-17, z: 1.9278788e-17, w: 1}
+  m_LocalPosition: {x: 0, y: 9, z: 4.499998}
+  m_LocalScale: {x: 0.5398856, y: 0.5398856, z: 0.5398856}
   m_Children:
   - {fileID: 2480161267730843045}
-  m_Father: {fileID: 4230518422018958588}
-  m_RootOrder: 3
+  m_Father: {fileID: 354179820370610477}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3099134295879331410
 MeshFilter:
@@ -2556,13 +2575,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7160932640525864466}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.49999914, z: -1.5000001}
-  m_LocalScale: {x: 0.26994273, y: 0.2699428, z: 0.13497137}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 1, z: 1}
+  m_LocalScale: {x: 0.5398855, y: 0.5398856, z: 0.53988546}
   m_Children:
   - {fileID: 4336235762474243405}
-  m_Father: {fileID: 4230518422018958588}
-  m_RootOrder: 2
+  m_Father: {fileID: 354179820370610477}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3392483517174892569
 GameObject:
@@ -2618,6 +2637,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718603021784289834}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.66666645, y: 0, z: 0.25000036}
   m_LocalScale: {x: 0.32333332, y: 0.92333305, z: 0.33333322}
@@ -2625,6 +2645,14 @@ Transform:
   - {fileID: 1464970944355927122}
   m_Father: {fileID: 7939199741210626990}
   m_RootOrder: 0
+=======
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -2, y: 13.750001, z: 0}
+  m_LocalScale: {x: 0.9699999, y: 2.77, z: 1}
+  m_Children: []
+  m_Father: {fileID: 354179820370610477}
+  m_RootOrder: 1
+>>>>>>> parent of 07c3a2e... added movement and gravity is jank
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3445158168900643061
 GameObject:
@@ -3233,6 +3261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842488605606365870}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0.70710695, y: -0, z: -0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 7, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 4}
@@ -3246,6 +3275,12 @@ Transform:
   - {fileID: 7479659233129002204}
   - {fileID: 3378034557857609417}
   - {fileID: 3070207693095120261}
+=======
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 7, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 4}
+  m_Children: []
+>>>>>>> parent of 07c3a2e... added movement and gravity is jank
   m_Father: {fileID: 354179820370610477}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3894,7 +3929,7 @@ Camera:
   field of view: 63.300003
   orthographic: 0
   orthographic size: 0.2352352
-  m_Depth: 0.7
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -5373,13 +5408,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293829846699208277}
-  m_LocalRotation: {x: -0, y: -2.4382087e-17, z: -3.202311e-17, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5000012, z: -1.5}
-  m_LocalScale: {x: 0.26994276, y: 0.2699428, z: 0.1349714}
+  m_LocalRotation: {x: -0.7071068, y: -3.9884492e-17, z: -5.403013e-18, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 1, z: -1}
+  m_LocalScale: {x: 0.5398856, y: 0.5398856, z: 0.5398856}
   m_Children:
   - {fileID: 415663079801058541}
-  m_Father: {fileID: 4230518422018958588}
-  m_RootOrder: 1
+  m_Father: {fileID: 354179820370610477}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7559045460105616075
 GameObject:
@@ -5656,11 +5691,18 @@ Transform:
   m_LocalPosition: {x: 0, y: 13, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 3441857774244225777}
   - {fileID: 1464970944355927122}
   m_Father: {fileID: 354179820370610477}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+=======
+  - {fileID: 1464970944355927122}
+  m_Father: {fileID: 354179820370610477}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 07c3a2e... added movement and gravity is jank
 --- !u!4 &7956391282168625872
 Transform:
   m_ObjectHideFlags: 0
