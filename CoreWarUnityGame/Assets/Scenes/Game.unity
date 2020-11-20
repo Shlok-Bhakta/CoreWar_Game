@@ -5591,7 +5591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcdc0a8c7d0088e46a8f72b7dfc544fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 300
+  sensitivity: 1700
   playerBody: {fileID: 4055916636830243206}
   Cam: {fileID: 2951917507546109177}
 --- !u!4 &7263249180557878386
