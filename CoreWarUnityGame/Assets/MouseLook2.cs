@@ -14,7 +14,7 @@ public class MouseLook2 : MonoBehaviour
     //creating a float for the player body
     public Transform playerBody;
 
-    public Transform Cam;
+    public Transform cam;
 
     //creating a float for a camera
     float xRotation = 90;
@@ -23,10 +23,12 @@ public class MouseLook2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cam.Rotate(0f, 0f, 90f);
+        
         Cursor.lockState = CursorLockMode.Locked;
 
-        
-        //Cam.Rotate(0f, -90f, f);
+
+
     }
 
     // Update is called once per frame
@@ -48,9 +50,9 @@ public class MouseLook2 : MonoBehaviour
         xRotation -= mouseY;
 
         // clamping the camera so it doesnt spin to far
-        xRotation = Mathf.Clamp(xRotation, 0f, 180f);
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        transform.localRotation = Quaternion.Euler(0f, 0f, xRotation);
 
         //getting movement of camera X axis
         playerBody.Rotate(Vector3.up * mouseX);
