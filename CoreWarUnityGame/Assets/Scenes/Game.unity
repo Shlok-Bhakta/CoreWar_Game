@@ -4224,6 +4224,7 @@ GameObject:
   - component: {fileID: 3400767171010804225}
   - component: {fileID: 8759142855135659574}
   - component: {fileID: 4874970120011614786}
+  - component: {fileID: 4874970120011614787}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -4244,6 +4245,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.9999998
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4874970120011614787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4874970120011614785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdc0a8c7d0088e46a8f72b7dfc544fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensitivity: 300
+  playerBody: {fileID: 4055916636830243206}
+  cam: {fileID: 2951917507546109177}
 --- !u!33 &4896912666713428748
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5586,14 +5602,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7223708890066591599}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcdc0a8c7d0088e46a8f72b7dfc544fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 300
   playerBody: {fileID: 4055916636830243206}
-  Cam: {fileID: 2951917507546109177}
+  cam: {fileID: 0}
 --- !u!4 &7263249180557878386
 Transform:
   m_ObjectHideFlags: 0
