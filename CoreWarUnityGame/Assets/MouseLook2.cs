@@ -17,7 +17,7 @@ public class MouseLook2 : MonoBehaviour
     public Transform Cam;
 
     //creating a float for a camera
-    float xRotation = 0;
+    float xRotation = 90;
 
 
     // Start is called before the first frame update
