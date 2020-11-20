@@ -25,7 +25,7 @@ public class MouseLook2 : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
 
-
+        
         //Cam.Rotate(0f, -90f, f);
     }
 
