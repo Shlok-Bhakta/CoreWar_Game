@@ -5609,7 +5609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensitivity: 300
   playerBody: {fileID: 4055916636830243206}
-  cam: {fileID: 0}
+  cam: {fileID: 2951917507546109177}
 --- !u!4 &7263249180557878386
 Transform:
   m_ObjectHideFlags: 0
@@ -6779,7 +6779,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.099999994
+  near clip plane: 1.9
   far clip plane: 300
   field of view: 65
   orthographic: 0
