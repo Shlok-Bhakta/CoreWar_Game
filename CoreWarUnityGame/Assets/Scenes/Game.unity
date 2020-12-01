@@ -1259,12 +1259,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3132950962395529857}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.66666615, y: 0, z: 0.25000063}
-  m_LocalScale: {x: 0.32333335, y: 0.92333335, z: 0.3333333}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -2, y: 13.750003, z: 0}
+  m_LocalScale: {x: 0.97000015, y: 2.77, z: 1}
   m_Children: []
-  m_Father: {fileID: 5948826313063914245}
-  m_RootOrder: 0
+  m_Father: {fileID: 4055916636830243206}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1406723455052997334
 MeshRenderer:
@@ -2544,11 +2544,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7223708890066591599}
   m_LocalRotation: {x: 0.5001777, y: -0.5001775, z: -0.49982235, w: 0.49982235}
-  m_LocalPosition: {x: -1.11, y: 0, z: 0.25}
+  m_LocalPosition: {x: -1.65, y: 0, z: 0.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5948826313063914245}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2962745288794485890
 GameObject:
@@ -3463,6 +3463,7 @@ Transform:
   m_LocalScale: {x: 0.081137, y: 0.081137, z: 0.081137}
   m_Children:
   - {fileID: 438568858345796695}
+  - {fileID: 1396152659373601370}
   - {fileID: 5948826313063914245}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -4912,10 +4913,9 @@ Transform:
   m_LocalPosition: {x: -0, y: 13, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
-  - {fileID: 1396152659373601370}
   - {fileID: 2951917507546109177}
   m_Father: {fileID: 4055916636830243206}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5965309823296514683
 Transform:
@@ -6769,7 +6769,7 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 0
+  m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_FocalLength: 51.01277
@@ -6779,9 +6779,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 1.9
+  near clip plane: 0.01
   far clip plane: 300
-  field of view: 65
+  field of view: 80.35842
   orthographic: 0
   orthographic size: 0.2352352
   m_Depth: 0

@@ -50,7 +50,7 @@ public class MouseLook2 : MonoBehaviour
         xRotation -= mouseY;
 
         // clamping the camera so it doesnt spin to far
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, -90f, 53f);
 
         transform.localRotation = Quaternion.Euler(0f, 0f, xRotation);
 

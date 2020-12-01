@@ -26,7 +26,7 @@ public class Character_Movement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         //creating a vector3 for movement
-        Vector3 move = (transform.right * x) + (transform.forward * z);
+        Vector3 move = (transform.right * (-1) * z) + (transform.forward * x);
         
         //applying the movement
         Controller.Move(move * speed * Time.deltaTime);
