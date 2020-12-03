@@ -37,14 +37,7 @@ public class GravityforCharCont : MonoBehaviour
         isGroundL = Physics.CheckSphere(groundCheckL.position, groundDist, goundMask);
         isGroundR = Physics.CheckSphere(groundCheckR.position, groundDist, goundMask);
 
-        if(isGroundL && Velocity.y < 0)
-        {
-            Velocity.y = -2f;
-        }
-        if (isGroundR && Velocity.y < 0)
-        {
-            Velocity.y = -2f;
-        }
+
 
 
         //adding the speed to velocity
@@ -52,16 +45,23 @@ public class GravityforCharCont : MonoBehaviour
         
         //applying the velocity in the downward direction
         playerCont.Move(Velocity);
-    
+
         //jumping as well
 
-        if(Input.GetButtonDown("Jump") && isGroundR)
+        if (Input.GetButtonDown("Jump") && isGroundL)
         {
             //formula for gravity
-            Velocity.y = Mathf.Sqrt(jumpHeight * -2 * GravityMultiplier);
+            Velocity.y = jumpHeight;
         }
 
-
+        if (isGroundL && Velocity.y < 0)
+        {
+            Velocity.y = -2f;
+        }
+        if (isGroundR && Velocity.y < 0)
+        {
+            Velocity.y = -2f;
+        }
 
 
 

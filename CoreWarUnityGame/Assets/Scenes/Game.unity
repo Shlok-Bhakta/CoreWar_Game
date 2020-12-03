@@ -3271,7 +3271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GravityMultiplier: 4
   playerCont: {fileID: 3675590533388780350}
-  jumpHeight: 1000
+  jumpHeight: 2
   groundCheckL: {fileID: 7450248118483659735}
   groundCheckR: {fileID: 4730868528426436450}
   groundDist: 0
