@@ -8,8 +8,9 @@ public class RigidBodyCharacterMovement : MonoBehaviour
     private Rigidbody character;
     public Transform groundL;
     public Transform groundR;
-    
-    
+    public float jumpForce = 4f;
+    Vector3 move;
+
     
     
     // Start is called before the first frame update
@@ -23,10 +24,22 @@ public class RigidBodyCharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Jump") && groundL)
 
+
+        move = new Vector3(Input.GetAxis("Horizontal"), character.velocity.y, Input.GetAxis("Vertical"));
+
+        character.velocity = move;
+        /*if (Input.GetButtonDown("Jump") && (groundL || groundR) == true)
+        {
+            character.velocity = new Vector3(0f, character.velocity.y + jumpForce, 0f);
         }
+        if (Input.GetButtonDown("Jump") && (groundL || groundR) == false)
+        {
+            print("your code is broken");
+        }
+        */
+    }
         
 
     }
-}
+
