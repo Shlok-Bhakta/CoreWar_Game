@@ -27,7 +27,7 @@ public class GravityforCharCont : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
 

@@ -3217,7 +3217,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3675590533388780348}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15f4cac3714ac8e41989ea67cc738cd1, type: 3}
   m_Name: 
@@ -3233,11 +3233,11 @@ CharacterController:
   m_GameObject: {fileID: 3675590533388780348}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 7.69
   m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -3265,17 +3265,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3675590533388780348}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f57b991e033d69d41afb7fa42a23fb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GravityMultiplier: 4
+  GravityMultiplier: 6
   playerCont: {fileID: 3675590533388780350}
-  jumpHeight: 5
+  jumpHeight: 0.1
   groundCheckL: {fileID: 7450248118483659735}
   groundCheckR: {fileID: 4730868528426436450}
-  groundDist: 50
+  groundDist: 0.17
   goundMask:
     serializedVersion: 2
     m_Bits: 256
@@ -3286,7 +3286,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3675590533388780348}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b61958d48b727794e8b5a64af8b4457d, type: 3}
   m_Name: 
@@ -3295,6 +3295,7 @@ MonoBehaviour:
   groundL: {fileID: 7450248118483659735}
   groundR: {fileID: 4730868528426436450}
   jumpForce: 10
+  speed: 50
 --- !u!4 &3731308906498201659
 Transform:
   m_ObjectHideFlags: 0
