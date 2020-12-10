@@ -11,7 +11,7 @@ public class RigidBodyCharacterMovement : MonoBehaviour
     public float jumpForce = 4f;
     Vector3 move;
 
-    
+    public float speed = 20f;
     
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class RigidBodyCharacterMovement : MonoBehaviour
 
         move = new Vector3(Input.GetAxis("Horizontal"), character.velocity.y, Input.GetAxis("Vertical"));
 
-        character.velocity = move;
+        character.velocity = (move * speed * Time.deltaTime);
         /*if (Input.GetButtonDown("Jump") && (groundL || groundR) == true)
         {
             character.velocity = new Vector3(0f, character.velocity.y + jumpForce, 0f);
