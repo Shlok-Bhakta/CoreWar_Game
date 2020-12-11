@@ -3270,9 +3270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57b991e033d69d41afb7fa42a23fb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GravityMultiplier: 6
+  GravityMultiplier: 15
   playerCont: {fileID: 3675590533388780350}
-  jumpHeight: 0.1
+  jumpHeight: 0.15
   groundCheckL: {fileID: 7450248118483659735}
   groundCheckR: {fileID: 4730868528426436450}
   groundDist: 0.17
@@ -3294,7 +3294,7 @@ MonoBehaviour:
   character: {fileID: 3675590533388780351}
   groundL: {fileID: 7450248118483659735}
   groundR: {fileID: 4730868528426436450}
-  jumpForce: 10
+  jumpForce: 10.19
   speed: 50
 --- !u!4 &3731308906498201659
 Transform:
