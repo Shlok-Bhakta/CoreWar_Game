@@ -211,7 +211,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &508494020
 GameObject:
@@ -335,7 +335,7 @@ Transform:
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1253742730
 GameObject:
@@ -374,7 +374,7 @@ Transform:
   - {fileID: 7123594032362858272}
   - {fileID: 4752595122035885656}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572657422
 GameObject:
@@ -1048,6 +1048,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!4 &983911885306248030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5302536864344129532}
+  m_LocalRotation: {x: 0.0006170223, y: 0.70710653, z: -0.70710653, w: 0.0006170223}
+  m_LocalPosition: {x: -0.25748444, y: 31.529907, z: 1.0598373}
+  m_LocalScale: {x: 4, y: 3.7600005, z: 3.76}
+  m_Children: []
+  m_Father: {fileID: 7123594032362858272}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -179.90001}
 --- !u!1 &987631725810329677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,6 +2229,14 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!33 &2075356306017011013
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5302536864344129532}
+  m_Mesh: {fileID: -6195245291975648998, guid: cf9faf10bbcf616488c261b2d07574a3, type: 3}
 --- !u!4 &2143642246583313027
 Transform:
   m_ObjectHideFlags: 0
@@ -2628,6 +2650,7 @@ GameObject:
   - component: {fileID: 1988434658140768724}
   - component: {fileID: 2185106608581975007}
   - component: {fileID: 2631275646947631730}
+  - component: {fileID: 2631275646947631731}
   m_Layer: 8
   m_Name: Resource Island
   m_TagString: Untagged
@@ -2648,6 +2671,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &2631275646947631731
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2631275646947631729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4118962809172074464, guid: 4854a13ed27749f49a56bd53227524a5, type: 3}
 --- !u!1 &2631746039320889004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,6 +2730,7 @@ GameObject:
   - component: {fileID: 4433977767988486557}
   - component: {fileID: 4708558020139147814}
   - component: {fileID: 2734779482504592951}
+  - component: {fileID: 2734779482504592952}
   m_Layer: 8
   m_Name: Icosphere
   m_TagString: Untagged
@@ -2713,6 +2751,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &2734779482504592952
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2734779482504592950}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 289301614986012343, guid: 994d1852d465e0547a975a022832a992, type: 3}
 --- !u!33 &2800939690688091067
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3692,7 +3744,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3675590533388780348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.6, y: 14.1, z: 3.6}
+  m_LocalPosition: {x: 94.36, y: 14.1, z: 3.6}
   m_LocalScale: {x: 0.081137, y: 0.081137, z: 0.081137}
   m_Children:
   - {fileID: 438568858345796695}
@@ -3897,6 +3949,7 @@ GameObject:
   - component: {fileID: 468602727509530330}
   - component: {fileID: 237450092386272465}
   - component: {fileID: 4151388916458552704}
+  - component: {fileID: 4151388916458552705}
   m_Layer: 8
   m_Name: Resource Island
   m_TagString: Untagged
@@ -3917,6 +3970,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &4151388916458552705
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4151388916458552703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4118962809172074464, guid: 4854a13ed27749f49a56bd53227524a5, type: 3}
 --- !u!4 &4156775610767018604
 Transform:
   m_ObjectHideFlags: 0
@@ -4621,6 +4688,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987631725810329677}
   m_Mesh: {fileID: 8101155362625147496, guid: 0d2f0c16363fd6a42ba10fef51fb1194, type: 3}
+--- !u!23 &5297366374085129972
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5302536864344129532}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 68e36d39d69918d4b918903829feb074, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &5302536864344129532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983911885306248030}
+  - component: {fileID: 2075356306017011013}
+  - component: {fileID: 5297366374085129972}
+  m_Layer: 0
+  m_Name: Cone.001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &5386108040309398754
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,6 +4984,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &5774504121557141038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6586787460292877460}
+  m_Layer: 0
+  m_Name: Reinforced_unit.002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &5804689578494791004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5078,6 +5218,7 @@ GameObject:
   - component: {fileID: 7858540927170413745}
   - component: {fileID: 7549296852037916346}
   - component: {fileID: 5914168444347084565}
+  - component: {fileID: 5914168444347084566}
   m_Layer: 8
   m_Name: Resource Island
   m_TagString: Untagged
@@ -5098,6 +5239,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &5914168444347084566
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5914168444347084564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4118962809172074464, guid: 4854a13ed27749f49a56bd53227524a5, type: 3}
 --- !u!23 &5926335635437158531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5463,6 +5618,20 @@ Transform:
   m_Father: {fileID: 848294946439648540}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6586787460292877460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774504121557141038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.76011, y: 3.5298824, z: 1.059838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6588441259710325879
 Transform:
   m_ObjectHideFlags: 0
@@ -5760,6 +5929,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4830003167891635012}
+  - {fileID: 983911885306248030}
   m_Father: {fileID: 1253742731}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6287,6 +6457,7 @@ GameObject:
   - component: {fileID: 8168597836120980531}
   - component: {fileID: 976225213364109192}
   - component: {fileID: 7577293494261867417}
+  - component: {fileID: 7577293494261867418}
   m_Layer: 8
   m_Name: Icosphere
   m_TagString: Untagged
@@ -6307,6 +6478,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &7577293494261867418
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7577293494261867416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 289301614986012343, guid: 994d1852d465e0547a975a022832a992, type: 3}
 --- !u!1 &7608769633619082650
 GameObject:
   m_ObjectHideFlags: 0
@@ -6695,6 +6880,7 @@ GameObject:
   - component: {fileID: 7555360902727179199}
   - component: {fileID: 1444115533497014276}
   - component: {fileID: 8115852169954264085}
+  - component: {fileID: 8115852169954264086}
   m_Layer: 8
   m_Name: Icosphere
   m_TagString: Untagged
@@ -6715,6 +6901,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &8115852169954264086
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8115852169954264084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 289301614986012343, guid: 994d1852d465e0547a975a022832a992, type: 3}
 --- !u!33 &8144757501091971597
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6735,6 +6935,7 @@ GameObject:
   - component: {fileID: 5631661468915869129}
   - component: {fileID: 5471018607516415938}
   - component: {fileID: 8159348037903273581}
+  - component: {fileID: 8159348037903273582}
   m_Layer: 8
   m_Name: Resource Island
   m_TagString: Untagged
@@ -6755,6 +6956,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &8159348037903273582
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159348037903273580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4118962809172074464, guid: 4854a13ed27749f49a56bd53227524a5, type: 3}
 --- !u!33 &8168597836120980531
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6910,6 +7125,7 @@ GameObject:
   - component: {fileID: 7839904504695889306}
   - component: {fileID: 1160908662738853409}
   - component: {fileID: 8410379560741929522}
+  - component: {fileID: 8410379560741929523}
   m_Layer: 8
   m_Name: Icosphere
   m_TagString: Untagged
@@ -6930,6 +7146,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jankisland: -90
+--- !u!64 &8410379560741929523
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8410379560741929521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 289301614986012343, guid: 994d1852d465e0547a975a022832a992, type: 3}
 --- !u!4 &8420288950457672049
 Transform:
   m_ObjectHideFlags: 0
