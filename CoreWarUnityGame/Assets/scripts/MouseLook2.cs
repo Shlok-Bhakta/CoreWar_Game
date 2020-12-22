@@ -17,13 +17,13 @@ public class MouseLook2 : MonoBehaviour
     public Transform cam;
 
     //creating a float for a camera
-    float xRotation = 90;
+    float xRotation = 0;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        cam.Rotate(0f, 0f, 90f);
+        cam.Rotate(0f, 0f, 0f);
         
         Cursor.lockState = CursorLockMode.Locked;
 
